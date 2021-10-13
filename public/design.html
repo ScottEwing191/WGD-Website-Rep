@@ -36,16 +36,173 @@
 </nav>
 
 <!--Game Idea Objective-->
+<div class="text-center pt-5">
+    <hr>
+    <h1>Game Idea</h1>
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col">
+                <pre>In NAME the objective is to get the ball from the start
+of the level to the end. The problem is that there is no
+path for the ball to roll on. The player must build the
+path themselves by placing platforms and other items
+around the level to create a path that the ball can use
+to get to the end of the level.</pre>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <!--Features-->
-
+<div class="text-center pt-5">
+    <hr>
+    <h1>Features</h1>
+    <div class="container pt-3">
+<!--Moving Platform-->
+        <div class="row">
+            <div class="col-5 ">
+                <img src="assets/Website/Pencil_grass_dirt_2.png" class="img-fluid pt-5" alt="Moveing Platfomr">
+            </div>
+            <div class="col-7 ">
+                <h5>Moving Platform</h5>
+                <pre>
+This object has an initial position and a target
+position as well as a move time. When the player
+enters Play Mode this platform will continuously
+move back and forth between the initial position
+and target position. The time it takes to do this
+will be determined by the move time.</pre>
+            </div>
+        </div>
+<!--Jump Pad-->
+        <div class="row pt-5 ">
+            <div class="col"></div>
+            <div class="col pt-5 ">
+                <h5>Jump Pad</h5>
+                <pre>
+The jump pad is an object that will add an
+immediate force to the ball in the direction that
+the jump pad is facing. This will happen when the
+ball collides with the jump pad.</pre>
+            </div>
+            <div class="col">
+                <img src="assets/Website/Pencil_spring1.png" class="img-fluid pt-5" alt="Moveing Platfomr">
+            </div>
+            <div class="col"></div>
+        </div>
+<!--Boost Zone-->
+        <div class="row pt-5">
+            <div class="col-5 ">
+                <img src="assets/Website/Pencil_stone_spike_bottom.png" class="img-fluid pt-5" alt="Moveing Platfomr">
+            </div>
+            <div class="col-7 pt-5">
+                <h5>Boost Zone</h5>
+                <pre>
+While the ball is inside the boost zone a continuous
+force will be added to the ball in the direction the
+boost zone is facing. Since all movable objects can
+be rotated, the boost zone is a good way for the player
+to get the ball up to a higher position
+                </pre>
+            </div>
+        </div>
+<!--Spikes-->
+        <div class="row pt-5 ">
+            <div class="col"></div>
+            <div class="col pt-5 ">
+                <h5>Spikes</h5>
+                <pre>
+Spikes will immediately destroy the ball as soon as
+they collide with it.</pre>
+            </div>
+            <div class="col">
+                <img src="assets/Website/Pencil_stone_spike_bottom.png" class="img-fluid pt-5" alt="Moveing Platfomr">
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</div>
 <!--Visual Style-->
+<div class = "container text-center">
+    <hr>
+    <h1>Visual Style</h1>
+    <pre class="pt-3">
+Visually the game looks like it has been drawn on a sheet of paper. We wanted to create
+a style where once a level had been completed it would seem like the player had sketched
+out the solution to that levels problem.
+    </pre>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/Website/Level%201.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/Website/Level%202.png" class="d-block w-100" alt="...">
+            </div>
+            <!--<div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>-->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
 <!--Infulences-->
+<div class="text-center">
+    <hr>
+    <h1>Influences</h1>
+    <pre>
+There are two main games which have influenced the style and gameplay of our game. The
+first is Doodle Jump and the second is Ultimate Chicken Horse.
+    </pre>
+    <div class="row pt-3">
+        <div class="col">
+            <h5>Doodle Jump</h5>
+            <pre>
+Doodle Jump is a game which looks like it takes place on a sheet of paper. The characters
+and platforms in the game have a simple hand drawn style which is we wanted to replicate
+although we did this by modifying existing assets to make them look hand drawn rather than
+drawing them ourselves.
+            </pre>
+        </div>
+        <div class="col">
+            <img src="assets/Website/Doodle_Jump.png" alt="Doodle Jump">
+        </div>
+    </div>
+    <div class="row pt-5">
+        <div class="col">
+            <img src="assets/Website/Ultimate_Chicken_Horse.png" alt="Ultimate Chicken Horse Image">
+        </div>
+        <div class="col">
+            <h5>Ultimate Chicken Horse</h5>
+            <pre>
+Ultimate Chicken Horse Is a four player 2D platform game where the player compete to get from
+the start of the level from the finish. Each level start off blank but gradually becomes more
+populated as the players add more platforms and obstacles each round. In the game the
+challenge comes from trying to make the level difficult enough that your opponent’s struggle
+to get to the finish while still leaving it possible for you to finish yourself.
+            </pre>
+        </div>
+
+    </div>
+</div>
 
 <!--Link To Play Page-->
 <div class="text-center">
-    <hr >
+    <hr>
     <h1>Still Not Played the Game?</h1>
     <a href="play.html" class="btn btn-info btn-lg   pt-1">
         <img src="assets/Website/images/temp_controls/tmp_left_mouse_click.png" alt="">
