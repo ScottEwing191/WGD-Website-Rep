@@ -1,0 +1,7 @@
+body{
+    background-image: url('//assets/Website/background/lined_Paper_Background.jpg')
+}
+
+html{
+    background-image: url('/public/assets/Website/background/lined_Paper_Background.jpg');
+}
