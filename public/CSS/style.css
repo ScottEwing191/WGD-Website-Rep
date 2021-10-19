@@ -1,7 +1,15 @@
-body{
-    background-image: url('//assets/Website/background/lined_Paper_Background.jpg')
-}
-
+/*
 html{
     background-image: url('/public/assets/Website/background/lined_Paper_Background.jpg');
+
+}*/
+
+.bodies {
+    /*background-image: url('//assets/Website/background/lined_Paper_Background.jpg');
+    background-image: url('//assets/Website/background/lined_Paper_Background_Seamless.jpg');
+    background-image: url('//assets/Website/background/annie-spratt-xt79nQxc9Q0-unsplash.jpg');*/
+    background-image: url('//assets/Website/background/plain_paper.jpg');
+    /*background-image: url('assets/Website/background/Square Paper 2 Seamless.jpg');*/
+
+    background-size: 50%;
 }
