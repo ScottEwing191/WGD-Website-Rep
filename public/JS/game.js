@@ -57,11 +57,11 @@ function create() {
     key.setBounce(0.1,0.1);
     key.setCollideWorldBounds(true);*/
 
-    const circle = new Phaser.Geom.Triangle(500, 500, 100,500, 300,50);
-    const graphics = this.add.graphics({
-        fillStyle: {color: 0xff0000}        // red
-    });
-    graphics.fillTriangleShape(circle);
+    //const circle = new Phaser.Geom.Triangle(500, 500, 100,500, 300,50);
+    //const graphics = this.add.graphics({
+    //    fillStyle: {color: 0xff0000}        // red
+    //});
+    //graphics.fillTriangleShape(circle);
 
 
 

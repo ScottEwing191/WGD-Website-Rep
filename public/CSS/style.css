@@ -2,3 +2,16 @@ body {
     background-image: url('../assets/Website/background/plain_paper_seamless.jpg');
     background-size: 50%;
 }
+
+.bg-paper-lined{
+    background-image: url('../assets/Website/background/lined_Paper_Background_Seamless.jpg');
+    background-size: 25%;
+}
+.bg-paper-plain{
+    background-image: url('../assets/Website/background/plain_paper_seamless.jpg');
+    background-size: 25%;
+}
+.bg-paper-square{
+    background-image: url('../assets/Website/background/Square Paper 2 Seamless.jpg');
+    background-size: 25%;
+}
