@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>Doodle Course | Design</title>
     <!-- Boostrap Version 5.1.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
 
 </head>
-<body>
+<body class="bg-paper-plain">
 <!--Nav Bar-->
 <nav class="navbar fixed-top  navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid ">
         <!--Nav Bar-->
-        <a class="navbar-brand fs-2" href="#">Doodle Course</a>
+        <a class="navbar-brand fs-2" href="index.html">
+            <img src="assets/Website/Game%20Title.png" class="navbar-img img-responsive" alt="Doodle Course">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,13 +47,13 @@
     <div class="container pt-3">
         <div class="row">
             <div class="col">
-                <pre>
+                <p>
 In Doodle Course the objective is to get the ball from
 the start of the level to the end. The problem is that
 there is nopath for the ball to roll on. The player
 must build thepath themselves by placing platforms and
 other itemsaround the level to create a path that the
-ball can useto get to the end of the level.</pre>
+ball can useto get to the end of the level.</p>
             </div>
 
         </div>
@@ -70,14 +71,14 @@ ball can useto get to the end of the level.</pre>
             <div class="col"></div>
             <div class="col"></div>
             <div class="col ">
-                <h5>Moving Platform</h5>
-                <pre>
+                <h5><b>Moving Platform</b></h5>
+                <p>
 This object has an initial position and a target
 position as well as a move time. When the player
 enters Play Mode this platform will continuously
 move back and forth between the initial position
 and target position. The time it takes to do this
-will be determined by the move time.</pre>
+will be determined by the move time.</p>
             </div>
             <div class="col ">
                 <img src="assets/Website/Pencil_grass_dirt_2.png" class="img-fluid pt-5" alt="Moveing Platfomr">
@@ -91,12 +92,12 @@ will be determined by the move time.</pre>
                 <img src="assets/Website/Pencil_spring1.png" class="img-fluid pt-5" alt="Moveing Platfomr">
             </div>
             <div class="col pt-5 ">
-                <h5>Jump Pad</h5>
-                <pre>
+                <h5><b>Jump Pad</b></h5>
+                <p>
 The jump pad is an object that will add an
 immediate force to the ball in the direction that
 the jump pad is facing. This will happen when the
-ball collides with the jump pad.</pre>
+ball collides with the jump pad.</p>
             </div>
             <div class="col"></div>
             <div class="col"></div>
@@ -107,14 +108,14 @@ ball collides with the jump pad.</pre>
             <div class="col"></div>
             <div class="col"></div>
             <div class="col">
-                <h5>Boost Zone</h5>
-                <pre>
+                <h5><b>Boost Zone</b></h5>
+                <p>
 While the ball is inside the boost zone a continuous
 force will be added to the ball in the direction the
 boost zone is facing. Since all movable objects can
 be rotated, the boost zone is a good way for the player
 to get the ball up to a higher position
-                </pre>
+                </p>
             </div>
             <div class="col">
                 <img src="assets/Website/Pencil_boost_1_128x128.png" class="img-fluid border border-dark" alt="Moveing Platfomr">
@@ -127,10 +128,10 @@ to get the ball up to a higher position
                 <img src="assets/Website/Pencil_stone_spike_bottom.png" class="img-fluid pt-5" alt="Moveing Platfomr">
             </div>
             <div class="col pt-5 ">
-                <h5>Spikes</h5>
-                <pre>
+                <h5><b>Spikes</b></h5>
+                <p>
 Spikes will immediately destroy the ball as soon as
-they collide with it.</pre>
+they collide with it.</p>
             </div>
             <div class="col"></div>
             <div class="col"></div>
@@ -142,11 +143,11 @@ they collide with it.</pre>
 <div class="container text-center pt-5">
     <hr>
     <h1>Visual Style</h1>
-    <pre class="pt-3">
-Visually the game looks like it has been drawn on a sheet of paper. We wanted to create
-a style where once a level had been completed it would seem like the player had sketched
-out the solution to that levels problem.
-    </pre>
+    <p class="pt-3">
+        Visually the game looks like it has been drawn on a sheet of paper. We wanted to create
+        a style where once a level had been completed it would seem like the player had sketched
+        out the solution to that levels problem.
+    </p>
     <div class="row">
         <div class="col-3"></div>
         <div class="col">
@@ -191,22 +192,22 @@ out the solution to that levels problem.
 <div class="container text-center pt-5">
     <hr>
     <h1>Influences</h1>
-    <pre>
+    <p>
 There are two main games which have influenced the style and gameplay of our game. The
 first is Doodle Jump and the second is Ultimate Chicken Horse.
-    </pre>
+    </p>
     <div class="row pt-3">
         <!--Doodle Jump-->
         <div class="col-1"></div>
         <div class="col">
-            <h5>Doodle Jump</h5>
-            <pre>
+            <h5><b>Doodle Jump</b></h5>
+            <p>
 Doodle Jump is a game which looks like it takes place on a sheet of
 paper. The characters and platforms in the game have a simple hand
 drawn style which is we wanted to replicate although we did this by
 modifying existing assets to make them look hand drawn rather than
 drawing them ourselves.
-            </pre>
+            </p>
         </div>
         <div class="col-4">
             <img class="w-100 border border-dark" src="assets/Website/Doodle_Jump.png" alt="Doodle Jump">
@@ -220,16 +221,17 @@ drawing them ourselves.
             <img class="w-100 border border-dark" src="assets/Website/Ultimate_Chicken_Horse.png" alt="Ultimate Chicken Horse Image">
         </div>
         <div class="col">
-            <h5>Ultimate Chicken Horse</h5>
-            <pre>
+            <h5><b>Ultimate Chicken Horse</b></h5>
+            <p>
 Ultimate Chicken Horse Is a four player 2D platform game where the
 player compete to get from the start of the level from the finish.
-Each level start off blank but gradually becomes more populated as
-the players add more platforms and obstacles each round. In the game
+The Obstacles in the level are places by the players as the game
+progresses. <!--Y
+In the game
 the challenge comes from trying to make the level difficult enough
 that your opponent’s struggle to get to the finish while still
-leaving it possible for you to finish yourself.
-            </pre>
+leaving it possible for you to finish yourself.-->
+            </p>
         </div>
         <div class="col-1"></div>
     </div>
@@ -248,17 +250,17 @@ leaving it possible for you to finish yourself.
 
 <!--Footer-->
 <div class="pt-5">
-    <div class="container-fluid bg-dark">
-        <footer class="py-3 my-4">
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="play.html" class="nav-link px-2 text-muted">Play</a></li>
-                <li class="nav-item"><a href="design.html" class="nav-link px-2 text-muted">Design</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About Us</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+                <li class="nav-item"><a href="play.html" class="nav-link px-2 link-secondary">Play</a></li>
+                <li class="nav-item"><a href="design.html" class="nav-link px-2 link-light">Design</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 link-secondary">About Us</a></li>
             </ul>
             <p class="text-center text-muted">&copy; 2021 UWS Web Game Development, Inc</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </div>
 
 </body>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Play</title>
+    <title>Doodle Course | Play</title>
     <!--Phaser 3-->
     <script src="JS/libs/phaser.min.js"></script>
     <script type="text/javascript" src="JS/game.js"></script>
@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="CSS/style.css">
 
 
-
 </head>
-<body class = 'bg-paper-lined'>
+<body class='bg-paper-lined'>
 <!--Nav Bar-->
 <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid ">
         <!--Nav Bar-->
-        <a class="navbar-brand fs-2" href="#">Doodle Course</a>
+        <a class="navbar-brand fs-2" href="index.html">
+            <img src="assets/Website/Game%20Title.png" class="navbar-img img-responsive" alt="Doodle Course">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,7 +44,7 @@
     </div>
 </nav>
 <!--Game Player-->
-<div class="pt-5">
+<div class="pt-5 container-fluid ">
     <div class="pt-5" id="phaserGame"></div>
 </div>
 
@@ -52,7 +53,8 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm text-center">
-            <button type="button" class="btn btn-primary border border-dark border-2" data-bs-toggle="modal" data-bs-target="#controlsModal">
+            <button type="button" class="btn btn-primary border border-dark border-2" data-bs-toggle="modal"
+                    data-bs-target="#controlsModal">
                 <h4>Controls</h4>
             </button>
         </div>
@@ -132,32 +134,33 @@
 <div class="container pt-5 text-center">
     <!--<hr class="bg-primary border border-5 border-dark">-->
     <h3>How To Play</h3>
-    <pre>
-The game is split into two modes, Edit Mode and Play Mode.
+    <p>
+        The game is split into two modes, Edit Mode and Play Mode.
 
-In Edit Mode the player can move objects around with the mouseto make a
-path for the ball to take. In this mode the ball physics will be disabled.
+        In Edit Mode the player can move objects around with the mouseto make a
+        path for the ball to take. In this mode the ball physics will be disabled.
 
-In Play Mode the ball physics is enabled, and the ball will begin to move.
-While in Play Mode you cannot move any of the objects. If the ball does not
-successfully reach the end goal, it will be reset to its start position,
-the game will renter Edit Mode and the you will have to adjust the position
-of the objects before trying again.
-    </pre>
+        In Play Mode the ball physics is enabled, and the ball will begin to move.
+        While in Play Mode you cannot move any of the objects. If the ball does not
+        successfully reach the end goal, it will be reset to its start position,
+        the game will renter Edit Mode, and then you will have to adjust the position
+        of the objects before trying again.
+    </p>
 </div>
+
 <!--Footer-->
 <div class="pt-5">
-    <div class="container-fluid bg-dark">
-        <footer class="py-3 my-4">
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="play.html" class="nav-link px-2 text-muted">Play</a></li>
-                <li class="nav-item"><a href="design.html" class="nav-link px-2 text-muted">Design</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About Us</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+                <li class="nav-item"><a href="play.html" class="nav-link px-2 link-light">Play</a></li>
+                <li class="nav-item"><a href="design.html" class="nav-link px-2 link-secondary">Design</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 link-secondary">About Us</a></li>
             </ul>
             <p class="text-center text-muted">&copy; 2021 UWS Web Game Development, Inc</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

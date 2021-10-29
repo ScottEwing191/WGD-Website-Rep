@@ -1,6 +1,7 @@
 body {
-    background-image: url('../assets/Website/background/plain_paper_seamless.jpg');
-    background-size: 50%;
+    /*background-image: url('../assets/Website/background/plain_paper_seamless.jpg');
+    background-size: 50%;*/
+    font-size: 20px;
 }
 
 .bg-paper-lined{
@@ -9,9 +10,20 @@ body {
 }
 .bg-paper-plain{
     background-image: url('../assets/Website/background/plain_paper_seamless.jpg');
-    background-size: 25%;
+    background-size: auto;
 }
 .bg-paper-square{
     background-image: url('../assets/Website/background/Square Paper 2 Seamless.jpg');
     background-size: 25%;
+
 }
+
+.navbar-img{
+    max-width: 70%;
+}
+.logo{
+    width: 70%;
+    height: auto;
+}
+
+
