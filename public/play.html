@@ -15,7 +15,7 @@
 </head>
 <body class='bg-paper-lined'>
 <!--Nav Bar-->
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar <!--fixed-top--> navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid ">
         <!--Nav Bar-->
         <a class="navbar-brand fs-2" href="index.html">
@@ -137,7 +137,7 @@
     <p>
         The game is split into two modes, Edit Mode and Play Mode.
 
-        In Edit Mode the player can move objects around with the mouseto make a
+        In Edit Mode the player can move objects around with the mouse to make a
         path for the ball to take. In this mode the ball physics will be disabled.
 
         In Play Mode the ball physics is enabled, and the ball will begin to move.
@@ -147,6 +147,38 @@
         of the objects before trying again.
     </p>
 </div>
+
+<!--Back Button-->
+<button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+    <img class="back-to-top" src="assets/Website/icons/back_to_top.png" alt="Back to Top">
+</button>
+
+<!--BackButton Script-->
+<!--Slightly modified version of W3 Schools Example
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top-->
+<script>
+    //Get the button
+    var backToTopButton = document.getElementById("backToTopBtn");
+
+    //--If the user scrolls downby more than 20(px?) then show the back to top button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    //--When the button is clicked go to the top of the page
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 
 <!--Footer-->
 <div class="pt-5">

@@ -30,7 +30,7 @@
                     <a class="nav-link" href="play.html">Play</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link "  href="design.html">Design</a>
+                    <a class="nav-link " href="design.html">Design</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
@@ -48,21 +48,22 @@
         <div class="row">
             <div class="col">
                 <p>
-We had devided the workload between us both and helped
-each other with each different task we faced.
+                    We divided the workload between us both and helped
+                    each other with each different task we faced.
                 </p>
             </div>
         </div>
     </div>
 </div>
 
-<!--Features-->
+<!--Team-->
 <div class="text-center container">
     <hr>
     <div class="container pt-3">
-        <div class="row">
-
-            <div class="col 7 ">
+        <div class="row ">
+            <!--Scott-->
+            <!--<div class="col-3 border"></div>-->
+            <div class="col ">
                 <h4>Scott Ewing</h4>
                 <pre>B00371006</pre>
                 <pre>Univeristy of the West of Scotland</pre>
@@ -83,6 +84,15 @@ Audio Implementation
 <a href="https://scott-ewing.itch.io/">Itch.io</a>
 <a href="https://www.artstation.com/scottewing2">ArtStation</a>
                 </pre>
+            </div>
+            <hr>
+
+        </div>
+
+        <!--Ross-->
+            <div class="row ">
+                <!--<div class="col border"></div>-->
+                <div class="col">
                 <pre> </pre>
                 <h4>Ross Derrick</h4>
                 <pre>B00366845</pre>
@@ -101,7 +111,9 @@ UI Design
 <b>Links:</b>
 <a href="https://scott-ewing.itch.io/kings-keep">Kings Keep</a>
                 </pre>
+                    </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -116,6 +128,38 @@ UI Design
     </a>
 
 </div>
+
+<!--Back Button-->
+<button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+    <img class="back-to-top" src="assets/Website/icons/back_to_top.png" alt="Back to Top">
+</button>
+
+<!--BackButton Script-->
+<!--Slightly modified version of W3 Schools Example
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top-->
+<script>
+    //Get the button
+    var backToTopButton = document.getElementById("backToTopBtn");
+
+    //--If the user scrolls downby more than 20(px?) then show the back to top button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    //--When the button is clicked go to the top of the page
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 
 <!--Footer-->
 <div class="pt-5">

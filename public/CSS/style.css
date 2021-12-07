@@ -4,26 +4,47 @@ body {
     font-size: 20px;
 }
 
-.bg-paper-lined{
+.bg-paper-lined {
     background-image: url('../assets/Website/background/lined_Paper_Background_Seamless.jpg');
     background-size: 25%;
 }
-.bg-paper-plain{
+
+.bg-paper-plain {
     background-image: url('../assets/Website/background/plain_paper_seamless.jpg');
     background-size: auto;
 }
-.bg-paper-square{
+
+.bg-paper-square {
     background-image: url('../assets/Website/background/Square Paper 2 Seamless.jpg');
     background-size: 25%;
 
 }
 
-.navbar-img{
+.navbar-img {
     max-width: 70%;
 }
-.logo{
+
+.logo {
     width: 70%;
     height: auto;
+}
+
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    width: 75px;
+    border: none;
+    background-color: rgba(100, 40, 40, 0);
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.back-to-top {
+    width: 75px;
 }
 
 

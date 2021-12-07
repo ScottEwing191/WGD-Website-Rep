@@ -4,8 +4,10 @@ let config = {
         parent: 'phaserGame',
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_HORIZONTALLY,
-        width: 800,
-        height: 600
+        //width: 800,
+        //height: 600
+        width: 1024,
+        height: 832,
     },
     //width: 800,
     //height: 600,
