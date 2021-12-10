@@ -17,7 +17,7 @@ class JumpPadUnmovable extends Phaser.GameObjects.Sprite {
 		thisJumpPad.isMovable = false;
 		const thisRectanglePhysics = new RectanglePhysics(this);
 		thisRectanglePhysics.isSensor = true;
-		thisRectanglePhysics.modifyBodyWidth = -24;
+		thisRectanglePhysics.modifyBodyWidth = -32;
 		thisRectanglePhysics.modifyBodyHeight = -56;
 		thisRectanglePhysics.modifyYPosition = -28;
 		thisRectanglePhysics.spriteYOffset = 0.4375;

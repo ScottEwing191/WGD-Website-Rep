@@ -16,7 +16,7 @@ class Jump_Pad extends Phaser.GameObjects.Sprite {
 		thisJumpPad.force = 8;
 		const thisRectanglePhysics = new RectanglePhysics(this);
 		thisRectanglePhysics.isSensor = true;
-		thisRectanglePhysics.modifyBodyWidth = -56;
+		thisRectanglePhysics.modifyBodyWidth = -32;
 		thisRectanglePhysics.modifyBodyHeight = -56;
 		thisRectanglePhysics.modifyYPosition = -28;
 		thisRectanglePhysics.spriteYOffset = 0.4375;

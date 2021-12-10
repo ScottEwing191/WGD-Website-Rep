@@ -392,6 +392,10 @@ class Level06 extends Phaser.Scene {
 		// MainMenuButton
 		const mainMenuButton = this.add.sprite(32, 32, "btn_icon_home_1");
 
+		// jump_Pad_1
+		const jump_Pad_1 = new Jump_Pad(this, 128, 32);
+		this.add.existing(jump_Pad_1);
+
 		// lists
 		const movableObjects = []
 		const jumpPads = []

@@ -77,6 +77,7 @@ class ControllableObject {
         this.gameObject.on('dragstart',  (pointer, dragX, dragY) =>{
             this.isSelected = true;
             this.scene.sound.play("paper_press_1_short");
+            //this.refToGameManager.setCurrentSelected(this);
         });
 
         this.gameObject.on('drag', (pointer, dragX, dragY) => {
@@ -93,6 +94,7 @@ class ControllableObject {
 //=== END START
 
     update() {
+
         if (this.refToGameManager.currentMode === 'EDIT_MODE'){
             this.pollMovementInput();
         }

@@ -47,6 +47,8 @@ class GameManager {
         });*/
         this.resets = 0;
         this.levelFinished = false;
+        //this.currentSelected = 0;
+
     }
 
     update() {
@@ -139,6 +141,13 @@ class GameManager {
             this.scene.levelCompletePanel_P.resetsText_1.text = "Resets: " + this.resets;
         }
     }
+
+    /*setCurrentSelected(newSelected){
+        if(this.currentSelected != 0){
+            this.currentSelected.isSelected = false;
+        }
+        this.currentSelected = newSelected;
+    }*/
 
     newScene() {
         this.scene.nextLevel();

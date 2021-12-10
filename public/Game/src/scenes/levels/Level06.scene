@@ -1192,7 +1192,7 @@
                     ],
                     "label": "jump_Pad_2",
                     "components": [],
-                    "RectanglePhysics.modifyBodyWidth": -56,
+                    "RectanglePhysics.modifyBodyWidth": -32,
                     "x": 128,
                     "y": 96
                 },
@@ -1502,6 +1502,18 @@
                 "key": "btn_icon_home_1"
             },
             "x": 32,
+            "y": 32
+        },
+        {
+            "prefabId": "ed55f365-5162-403a-b28b-f0655a7227a5",
+            "id": "bc8cd223-a048-47ff-9b77-14154690eb98",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "jump_Pad_1",
+            "components": [],
+            "x": 128,
             "y": 32
         }
     ],
