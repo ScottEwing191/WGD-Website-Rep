@@ -1,0 +1,38 @@
+{
+    "id": "087f3cc7-41c9-46b0-833a-38a6197b98f1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 960,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "4068c1f5-6e12-4a26-9389-265819f8c4ab",
+            "label": "player",
+            "scope": "PUBLIC",
+            "components": [
+                "CirclePhysics",
+                "Player"
+            ],
+            "CirclePhysics.radius": 24,
+            "CirclePhysics.bounce": 1,
+            "texture": {
+                "key": "BallPop_256",
+                "frame": 0
+            },
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

@@ -1,0 +1,606 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "src/components/user-components/AntiGravZone.js",
+                "type": "script",
+                "key": "AntiGravZone"
+            },
+            {
+                "url": "prefabs/Movable/AntiGravZone1x2Prefab.js",
+                "type": "script",
+                "key": "AntiGravZone1x2Prefab"
+            },
+            {
+                "url": "prefabs/Movable/AntiGravZonePrefab.js",
+                "type": "script",
+                "key": "AntiGravZonePrefab"
+            },
+            {
+                "url": "prefabs/Unmovable/AttemptsPanel_P.js",
+                "type": "script",
+                "key": "AttemptsPanel_P"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/back.png",
+                "type": "image",
+                "key": "back"
+            },
+            {
+                "url": "assets/animation/ball-anim.json",
+                "type": "animation",
+                "key": "ball-anim"
+            },
+            {
+                "url": "assets/images/pencil/BallPop_256.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BallPop_256"
+            },
+            {
+                "url": "assets/images/pencil/BallShrink_256.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BallShrink_256"
+            },
+            {
+                "url": [
+                    "assets/sounds/book_Page_Turn.wav"
+                ],
+                "type": "audio",
+                "key": "book_Page_Turn"
+            },
+            {
+                "url": "assets/animation/boost-pad-anim.json",
+                "type": "animation",
+                "key": "boost-pad-anim"
+            },
+            {
+                "url": "assets/images/ui/btn_icon_home_1.png",
+                "type": "image",
+                "key": "btn_icon_home_1"
+            },
+            {
+                "url": [
+                    "assets/sounds/button_press.wav"
+                ],
+                "type": "audio",
+                "key": "button_press"
+            },
+            {
+                "url": "assets/images/ui/Buttons_sheet.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 111,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Buttons_sheet"
+            },
+            {
+                "url": "assets/animation/change-level-buttons-anim.json",
+                "type": "animation",
+                "key": "change-level-buttons-anim"
+            },
+            {
+                "url": "src/components/user-components/ChangeLevelButton.js",
+                "type": "script",
+                "key": "ChangeLevelButton"
+            },
+            {
+                "url": "prefabs/Movable/CircleBounce.js",
+                "type": "script",
+                "key": "CircleBounce"
+            },
+            {
+                "url": "prefabs/Unmovable/CircleBounceStatic.js",
+                "type": "script",
+                "key": "CircleBounceStatic"
+            },
+            {
+                "url": "src/components/user-components/CircleCollider.js",
+                "type": "script",
+                "key": "CircleCollider"
+            },
+            {
+                "url": "prefabs/Movable/CircleNoBounce.js",
+                "type": "script",
+                "key": "CircleNoBounce"
+            },
+            {
+                "url": "prefabs/Unmovable/CircleNoBounceStatic.js",
+                "type": "script",
+                "key": "CircleNoBounceStatic"
+            },
+            {
+                "url": "src/components/user-components/CirclePhysics.js",
+                "type": "script",
+                "key": "CirclePhysics"
+            },
+            {
+                "url": "assets/images/coin/coin empty place.png",
+                "type": "image",
+                "key": "coin empty place"
+            },
+            {
+                "url": "assets/images/coin/Coin_Idle_Sheet.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 443,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Coin_Idle_Sheet"
+            },
+            {
+                "url": "prefabs/Unmovable/Coin_P.js",
+                "type": "script",
+                "key": "Coin_P"
+            },
+            {
+                "url": [
+                    "assets/sounds/Coin_pickup.wav"
+                ],
+                "type": "audio",
+                "key": "Coin_pickup"
+            },
+            {
+                "url": "assets/images/coin/Coin_Pickup_Sheet.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 443,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Coin_Pickup_Sheet"
+            },
+            {
+                "url": "assets/animation/coin-anim.json",
+                "type": "animation",
+                "key": "coin-anim"
+            },
+            {
+                "url": "src/components/user-components/CoinCollectable.js",
+                "type": "script",
+                "key": "CoinCollectable"
+            },
+            {
+                "url": "src/components/user-components/ControllableObject.js",
+                "type": "script",
+                "key": "ControllableObject"
+            },
+            {
+                "url": "assets/images/crayon/Crayon_256.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crayon_256"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/images/pencil/DoodleCourse Curved.png",
+                "type": "image",
+                "key": "DoodleCourse Curved"
+            },
+            {
+                "url": "src/components/user-components/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": [
+                    "assets/sounds/jump_Pad.wav"
+                ],
+                "type": "audio",
+                "key": "jump_Pad"
+            },
+            {
+                "url": "prefabs/Jump_Pad.js",
+                "type": "script",
+                "key": "Jump_Pad"
+            },
+            {
+                "url": "prefabs/Movable/Jump_Pad.js",
+                "type": "script",
+                "key": "Jump_Pad_1"
+            },
+            {
+                "url": "assets/animation/jump-pad-anim.json",
+                "type": "animation",
+                "key": "jump-pad-anim"
+            },
+            {
+                "url": "src/components/user-components/JumpPad.js",
+                "type": "script",
+                "key": "JumpPad"
+            },
+            {
+                "url": "prefabs/JumpPadUnmovable.js",
+                "type": "script",
+                "key": "JumpPadUnmovable"
+            },
+            {
+                "url": "prefabs/Unmovable/JumpPadUnmovable.js",
+                "type": "script",
+                "key": "JumpPadUnmovable_1"
+            },
+            {
+                "url": "assets/tiled/Level_1_256px_16x13.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level_1"
+            },
+            {
+                "url": "assets/animation/level-end-anim.json",
+                "type": "animation",
+                "key": "level-end-anim"
+            },
+            {
+                "url": "assets/tiled/Level01.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level01"
+            },
+            {
+                "url": "assets/tiled/Level02.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level02"
+            },
+            {
+                "url": "assets/tiled/Level03.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level03"
+            },
+            {
+                "url": "assets/tiled/Level04.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level04"
+            },
+            {
+                "url": "assets/tiled/Level05.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level05"
+            },
+            {
+                "url": "assets/tiled/Level06.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level06"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/Level1.png",
+                "type": "image",
+                "key": "Level1"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/Level2.png",
+                "type": "image",
+                "key": "Level2"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/Level3.png",
+                "type": "image",
+                "key": "Level3"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/Level4.png",
+                "type": "image",
+                "key": "Level4"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/Level5.png",
+                "type": "image",
+                "key": "Level5"
+            },
+            {
+                "url": "assets/images/levelSelectScreen/Level6.png",
+                "type": "image",
+                "key": "Level6"
+            },
+            {
+                "url": "src/components/user-components/LevelCompletePanel.js",
+                "type": "script",
+                "key": "LevelCompletePanel"
+            },
+            {
+                "url": "prefabs/Unmovable/LevelCompletePanel_P.js",
+                "type": "script",
+                "key": "LevelCompletePanel_P"
+            },
+            {
+                "url": "assets/images/pencil/LevelCompleteScreen.png",
+                "type": "image",
+                "key": "LevelCompleteScreen"
+            },
+            {
+                "url": "src/components/user-components/LevelEnd.js",
+                "type": "script",
+                "key": "LevelEnd"
+            },
+            {
+                "url": "prefabs/Unmovable/LevelEnd_P.js",
+                "type": "script",
+                "key": "LevelEnd_P"
+            },
+            {
+                "url": "assets/images/pencil/LevelEnd_sheet.png",
+                "frameConfig": {
+                    "frameWidth": 512,
+                    "frameHeight": 512,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LevelEnd_sheet"
+            },
+            {
+                "url": "assets/tiled/LevelSelect.json",
+                "type": "tilemapTiledJSON",
+                "key": "LevelSelect"
+            },
+            {
+                "url": "assets/tiled/Test/LevelTest_map.json",
+                "type": "tilemapTiledJSON",
+                "key": "LevelTest_map"
+            },
+            {
+                "url": "assets/tiled/MainMenu.json",
+                "type": "tilemapTiledJSON",
+                "key": "MainMenu"
+            },
+            {
+                "url": "src/components/user-components/MenuPlayButton.js",
+                "type": "script",
+                "key": "MenuPlayButton"
+            },
+            {
+                "url": [
+                    "assets/sounds/paper press 1.wav"
+                ],
+                "type": "audio",
+                "key": "paper press 1"
+            },
+            {
+                "url": [
+                    "assets/sounds/paper_move.wav"
+                ],
+                "type": "audio",
+                "key": "paper_move"
+            },
+            {
+                "url": [
+                    "assets/sounds/paper_press_1_short.wav"
+                ],
+                "type": "audio",
+                "key": "paper_press_1_short"
+            },
+            {
+                "url": [
+                    "assets/sounds/paper_rip.wav"
+                ],
+                "type": "audio",
+                "key": "paper_rip"
+            },
+            {
+                "url": "assets/images/pencil/Pencil_256.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Pencil_256"
+            },
+            {
+                "url": "assets/images/pencil/Pencil_ball_256.png",
+                "type": "image",
+                "key": "Pencil_ball_256"
+            },
+            {
+                "url": "assets/images/pencil/Pencil_ice_2_crop.png",
+                "type": "image",
+                "key": "Pencil_ice_2_crop"
+            },
+            {
+                "url": "assets/images/pencil/Pencil_ice_3_crop.png",
+                "type": "image",
+                "key": "Pencil_ice_3_crop"
+            },
+            {
+                "url": "assets/images/pencil/Pencil_grass_rock_2_crop.png",
+                "type": "image",
+                "key": "platform_pencil_grass_2"
+            },
+            {
+                "url": "assets/images/pencil/Pencil_grass_rock_3_crop.png",
+                "type": "image",
+                "key": "platform_pencil_grass_3"
+            },
+            {
+                "url": "prefabs/Movable/PlatformGrassBig.js",
+                "type": "script",
+                "key": "PlatformGrassBig"
+            },
+            {
+                "url": "prefabs/Movable/PlatformGrassSmall.js",
+                "type": "script",
+                "key": "PlatformGrassSmall"
+            },
+            {
+                "url": "assets/animation/play-button-anim.json",
+                "type": "animation",
+                "key": "play-button-anim"
+            },
+            {
+                "url": "src/components/user-components/Player.js",
+                "type": "script",
+                "key": "Player"
+            },
+            {
+                "url": "prefabs/Movable/PlayerPrefab.js",
+                "type": "script",
+                "key": "PlayerPrefab"
+            },
+            {
+                "url": "src/components/user-components/RectanglePhysics.js",
+                "type": "script",
+                "key": "RectanglePhysics"
+            },
+            {
+                "url": "src/components/user-components/Respawn.js",
+                "type": "script",
+                "key": "Respawn"
+            },
+            {
+                "textureURL": "assets/fonts/scott-script-bold.png",
+                "fontDataURL": "assets/fonts/scott-script-bold.xml",
+                "type": "bitmapFont",
+                "key": "scott-script-bold"
+            },
+            {
+                "textureURL": "assets/fonts/scott-script-bold-3.png",
+                "fontDataURL": "assets/fonts/scott-script-bold-3.xml",
+                "type": "bitmapFont",
+                "key": "scott-script-bold-3"
+            },
+            {
+                "url": "assets/images/space/Space_1x2_512px.png",
+                "type": "image",
+                "key": "Space_1x2_512px"
+            },
+            {
+                "url": "assets/images/space/Space_1x2_noBorder.png",
+                "type": "image",
+                "key": "Space_1x2_noBorder"
+            },
+            {
+                "url": "assets/images/space/Space2_1x1_512px.png",
+                "type": "image",
+                "key": "Space2_1x1_512px"
+            },
+            {
+                "url": "src/components/user-components/Spike.js",
+                "type": "script",
+                "key": "Spike"
+            },
+            {
+                "url": "prefabs/spikes/Spike1Down.js",
+                "type": "script",
+                "key": "Spike1Down"
+            },
+            {
+                "url": "prefabs/spikes/Spike1Left.js",
+                "type": "script",
+                "key": "Spike1Left"
+            },
+            {
+                "url": "prefabs/spikes/Spike1Right.js",
+                "type": "script",
+                "key": "Spike1Right"
+            },
+            {
+                "url": "prefabs/spikes/Spike1Up.js",
+                "type": "script",
+                "key": "Spike1Up"
+            },
+            {
+                "url": "prefabs/spikes/Spike4Down.js",
+                "type": "script",
+                "key": "Spike4Down"
+            },
+            {
+                "url": "prefabs/spikes/Spike4Left.js",
+                "type": "script",
+                "key": "Spike4Left"
+            },
+            {
+                "url": "prefabs/spikes/Spike4Right.js",
+                "type": "script",
+                "key": "Spike4Right"
+            },
+            {
+                "url": "prefabs/spikes/Spike4Up.js",
+                "type": "script",
+                "key": "Spike4Up"
+            },
+            {
+                "url": "prefabs/Unmovable/SpikePrefab.js",
+                "type": "script",
+                "key": "SpikePrefab"
+            },
+            {
+                "url": "assets/images/crayon/Spikes_Crayon.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Spikes_Crayon"
+            },
+            {
+                "url": "assets/images/pencil/Spikes_Pencill.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Spikes_Pencill"
+            },
+            {
+                "url": "assets/images/backgrounds/Square Paper 2 Seamless_On Grid.png",
+                "type": "image",
+                "key": "Square Paper 2 Seamless_On Grid"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

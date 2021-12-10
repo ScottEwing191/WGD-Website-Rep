@@ -1,0 +1,376 @@
+{
+    "id": "b658ac34-3698-4466-ba57-c6c20222e77b",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 32,
+        "snapHeight": 32,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level01",
+        "borderWidth": 1024,
+        "borderHeight": 832
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "5df4088b-1692-44f3-b228-3b45e30a478d",
+            "label": "tilesprite",
+            "components": [],
+            "texture": {
+                "key": "Square Paper 2 Seamless_On Grid"
+            },
+            "originX": 0,
+            "originY": 0,
+            "width": 1024,
+            "height": 832,
+            "tileScaleX": 0.177,
+            "tileScaleY": 0.177
+        },
+        {
+            "type": "Rectangle",
+            "id": "fa57d575-d010-48fe-b1c2-81e5859cf66e",
+            "label": "gameManager",
+            "scope": "PUBLIC",
+            "components": [
+                "GameManager"
+            ],
+            "x": 1088,
+            "y": 64,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "ccb691ce-7497-4ff7-924b-2177d6cbb221",
+            "label": "decoration",
+            "components": [],
+            "scaleX": 0.25,
+            "scaleY": 0.25,
+            "tilemapId": "fa02bd71-2abe-4566-b9bb-f48e05fd0942",
+            "layerName": "Decoration",
+            "tilesets": [
+                "Crayon_Tileset",
+                "Pencil_Tileset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "5f3fed89-2a00-40c5-88d1-fa18f402b06d",
+            "label": "solid_1",
+            "scope": "CLASS",
+            "components": [],
+            "scaleX": 0.25,
+            "scaleY": 0.25,
+            "tilemapId": "fa02bd71-2abe-4566-b9bb-f48e05fd0942",
+            "layerName": "Solid",
+            "tilesets": [
+                "Crayon_Tileset",
+                "Pencil_Tileset"
+            ]
+        },
+        {
+            "prefabId": "4ea8129b-0371-4dd3-a1ae-7dfbf189ef70",
+            "id": "205c8996-6de1-42f0-b901-daee35d89f3a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "platformGrassSmall",
+            "components": [],
+            "x": 736,
+            "y": 160
+        },
+        {
+            "prefabId": "78f1afa5-31bd-4118-a357-1ee073f288bb",
+            "id": "a9aff4b4-eb96-4465-9bcf-d113823c547c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "platformGrassBig",
+            "components": [],
+            "x": 736,
+            "y": 256
+        },
+        {
+            "prefabId": "78f1afa5-31bd-4118-a357-1ee073f288bb",
+            "id": "f3efe5a9-72f9-4417-8ee2-bef954a40fae",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "platformGrassBig_1",
+            "components": [],
+            "x": 736,
+            "y": 352
+        },
+        {
+            "prefabId": "087f3cc7-41c9-46b0-833a-38a6197b98f1",
+            "id": "1c26a65b-91ea-4a45-90ee-4e576348cfb9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": 160,
+            "y": 128
+        },
+        {
+            "prefabId": "a439648d-2f0f-40dd-9682-e97863778497",
+            "id": "ba625103-a16e-4ffc-896b-c3678a30ccaf",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "levelEnd_P",
+            "components": [],
+            "x": 832,
+            "y": 576
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "0e29f9e4-0b61-4112-b525-1e525cbd9aea",
+            "label": "border_1",
+            "components": [],
+            "scaleX": 0.25,
+            "scaleY": 0.25,
+            "tilemapId": "34420835-4617-4d46-be5a-4cbf7dd2c318",
+            "layerName": "Border",
+            "tilesets": [
+                "Crayon_Tileset",
+                "Pencil_Tileset"
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "9e7e04f3-a754-4fe5-beef-48c06deae538",
+            "label": "text_Layer",
+            "components": [],
+            "list": [
+                {
+                    "type": "BitmapText",
+                    "id": "79cf9e27-d24d-4ce5-aa65-3812c64f847f",
+                    "label": "click",
+                    "components": [],
+                    "x": 512,
+                    "y": 96,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Click objects to select them.",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "9e04d21b-ed08-4ff6-ab75-0a627ac60e51",
+                    "label": "playText",
+                    "components": [],
+                    "x": 32,
+                    "y": 64,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Hit space to play.",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "be668f73-7364-4c3f-b565-7a2253e1d87f",
+                    "label": "resetText",
+                    "components": [],
+                    "x": 96,
+                    "y": 736,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Hit R to reset.",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "56487659-721d-4087-a065-49526cd601ab",
+                    "label": "endText",
+                    "components": [],
+                    "x": 736,
+                    "y": 480,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Get ball here.",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "91bf4421-b1b8-4504-ae8a-8e1e01932322",
+                    "label": "moveText",
+                    "components": [],
+                    "x": 608,
+                    "y": 192,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Move with WASD...",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "a83980ad-981f-46cc-a107-afe0f25a2fac",
+                    "label": "dragText",
+                    "components": [],
+                    "x": 512,
+                    "y": 288,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "...or click and drag with mouse.",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "597cfd48-5b59-4136-9e69-e13369967983",
+                    "label": "rotateText",
+                    "components": [],
+                    "x": 191,
+                    "y": 394,
+                    "angle": 30,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Hit Q or E to rotate.",
+                    "font": "scott-script-bold-3",
+                    "fontSize": 30
+                }
+            ]
+        },
+        {
+            "prefabId": "0096356b-5f82-4b1e-bf17-f59fa8f880ba",
+            "id": "18153e5e-541f-4f74-9cb5-f8b664df6b75",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "levelCompletePanel_P",
+            "scope": "CLASS",
+            "components": [],
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "a68bd93d-7ce4-42bf-a34b-7c34006d3f23",
+            "id": "dbbe1a07-9335-4e23-9fd1-b55f25d56fbf",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "attemptsPanel_P",
+            "scope": "CLASS",
+            "components": [],
+            "x": 896,
+            "y": 800,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "ee5e8e6c-4e26-4892-af52-6fd98cc0e1ec",
+            "label": "coinEmpty",
+            "components": [],
+            "texture": {
+                "key": "coin empty place"
+            },
+            "x": 736,
+            "y": 800,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        },
+        {
+            "prefabId": "e2f3078e-5848-44b5-bd4f-2da25a4c0e94",
+            "id": "3e9dd88f-e318-4775-ae75-7bcca48acb04",
+            "unlock": [
+                "x",
+                "y",
+                "CoinCollectable.moveToY"
+            ],
+            "label": "coin_P",
+            "scope": "CLASS",
+            "components": [],
+            "CoinCollectable.moveToY": 800,
+            "x": 352,
+            "y": 352
+        },
+        {
+            "type": "Sprite",
+            "id": "f8a52e4f-d068-43cf-9b27-417dc8976cbc",
+            "label": "btn_icon_home_1",
+            "components": [
+                "ChangeLevelButton"
+            ],
+            "ChangeLevelButton.changeAnimation": "\n",
+            "texture": {
+                "key": "btn_icon_home_1"
+            },
+            "x": 32,
+            "y": 32
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "fa02bd71-2abe-4566-b9bb-f48e05fd0942",
+            "type": "Tilemap",
+            "label": "level01",
+            "key": "Level01",
+            "tilesets": [
+                {
+                    "name": "Crayon_Tileset",
+                    "imageKey": "Crayon_256"
+                },
+                {
+                    "name": "Pencil_Tileset",
+                    "imageKey": "Pencil_256"
+                }
+            ]
+        },
+        {
+            "id": "34420835-4617-4d46-be5a-4cbf7dd2c318",
+            "type": "Tilemap",
+            "label": "level01_1",
+            "key": "Level01",
+            "tilesets": [
+                {
+                    "name": "Crayon_Tileset",
+                    "imageKey": "Crayon_256"
+                },
+                {
+                    "name": "Pencil_Tileset",
+                    "imageKey": "Pencil_256"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "lists": [
+        {
+            "id": "de35db31-1dcd-4632-acca-633af3829e06",
+            "label": "movableObjects",
+            "scope": "PUBLIC"
+        },
+        {
+            "id": "5b2a7e14-302f-44ae-b861-d7412b995a1a",
+            "label": "jumpPads",
+            "scope": "PUBLIC"
+        },
+        {
+            "id": "1caee800-9db5-42fe-a106-4ceb15a1fe52",
+            "label": "spikes",
+            "scope": "PUBLIC"
+        }
+    ]
+}

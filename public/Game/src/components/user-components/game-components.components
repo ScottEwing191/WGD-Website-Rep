@@ -1,0 +1,368 @@
+{
+    "components": [
+        {
+            "name": "CirclePhysics",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "radius",
+                    "label": "Radius",
+                    "tooltip": "Circle Collider radius",
+                    "defValue": 32,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "bounce",
+                    "label": "Bounce",
+                    "tooltip": "The bounciness of the ball",
+                    "defValue": 0.8,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "isStatic",
+                    "label": "IsStatic",
+                    "tooltip": "Property 1",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "RectanglePhysics",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "isSensor",
+                    "label": "Is Sensor",
+                    "tooltip": "Is theis Physics body Static ",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "modifyBodyWidth",
+                    "label": "Modify Body Width",
+                    "tooltip": "Increase or decrees the width of the physics body ",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "modifyBodyHeight",
+                    "label": "Modify Body Height",
+                    "tooltip": "Increase or decrees the height of the physics body ",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "modifyYPosition",
+                    "label": "Modify Y Position",
+                    "tooltip": "Increase or decrees the Y Position of the gameObject (+ve for Up) ",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "spriteYOffset",
+                    "label": "Sprite Y Offset",
+                    "tooltip": "The offset of the sprite relative to the game object (Guide: 0.5 - (modify Y Position / 64))",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "modifyXPosition",
+                    "label": "Modify X Position",
+                    "tooltip": "Increase or decrees the X Position of the gameObject (+ve for??) ",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "spriteXOffset",
+                    "label": "Sprite X Offset",
+                    "tooltip": "The offset of the sprite relative to the game object (Guide: 0.5 - (modify X Position))",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "angle",
+                    "label": "Angle",
+                    "tooltip": "Property 1",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ControllableObject",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "moveDst",
+                    "label": "Move Distance",
+                    "tooltip": "How much the object will move with each key press",
+                    "defValue": 32,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "rotateDegrees",
+                    "label": "Rotate Degrees",
+                    "tooltip": "How many degrees the objects will rotate with each key press",
+                    "defValue": 15,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Respawn",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "GameManager",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": []
+        },
+        {
+            "name": "Player",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "xVelocity",
+                    "label": "X Velocity",
+                    "tooltip": "The X velocity the plyer will have when play mode starts",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "yVelocity",
+                    "label": "Y Velocity",
+                    "tooltip": "The Y velocity the plyer will have when play mode starts",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JumpPad",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "force",
+                    "label": "Force",
+                    "tooltip": "How big a forrce does the jamp pad apply to the ball",
+                    "defValue": 5,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "isMovable",
+                    "label": "IsMovable",
+                    "tooltip": "Can this Jump Pad be moved by the player?",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Spike",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "AntiGravZone",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "zoneAirFriction",
+                    "label": "Zone Air Friction",
+                    "tooltip": "The air friction which will be applied to the ball while in the gravity zone",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "CircleCollider",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "radius",
+                    "label": "Radius",
+                    "tooltip": "The radius of the colider",
+                    "defValue": 32,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "bounce",
+                    "label": "Bounce",
+                    "tooltip": "The bounciness of the colider (0-1)",
+                    "defValue": 0.5,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "isStatic",
+                    "label": "IsStatic",
+                    "tooltip": "Is the colider Static",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "isSensor",
+                    "label": "Is Sensor",
+                    "tooltip": "Is the gameObject A trigger",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "LevelEnd",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": []
+        },
+        {
+            "name": "MenuPlayButton",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "ChangeLevelButton",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "changeAnimation",
+                    "label": "Change Animation",
+                    "tooltip": "The name of the animation to use to change the button image when the button is selected",
+                    "defValue": "yellow",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "levelName",
+                    "label": "Level Name",
+                    "tooltip": "The name of the Level This button is changing to",
+                    "defValue": "MainMenu",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "LevelCompletePanel",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "CoinCollectable",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "moveToX",
+                    "label": "Move To X",
+                    "tooltip": "the xposition that the coin gameobject will move to once it is collected",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "moveToY",
+                    "label": "Move To Y",
+                    "tooltip": "The Y position the coin Gameobject will move to once collected",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
