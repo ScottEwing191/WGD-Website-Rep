@@ -1,10 +1,15 @@
+<!--
+    THE PLAY PAGE FOR THE WEBSITE IS public/Game.index
+-->
+
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Doodle Course | Play</title>
 
-    <!--CODE FROM GAME INDEX FILE START-->
+    &lt;!&ndash;CODE FROM GAME INDEX FILE START&ndash;&gt;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -22,12 +27,12 @@
     <script src="Game/src/scenes/levels/Level05.js"></script>
     <script src="Game/src/scenes/levels/Level06.js"></script>
     <script src="Game/src/main.js"></script>
-    <!--CODE FROM GAME INDEX FILE END-->
+    &lt;!&ndash;CODE FROM GAME INDEX FILE END&ndash;&gt;
 
-    <!--Phaser 3-->
-    <!--<script src="JS/libs/phaser.min.js"></script>
-    <script type="text/javascript" src="JS/game.js"></script>-->
-    <!-- Boostrap Version 5.1.2 -->
+    &lt;!&ndash;Phaser 3&ndash;&gt;
+    &lt;!&ndash;<script src="JS/libs/phaser.min.js"></script>
+    <script type="text/javascript" src="JS/game.js"></script>&ndash;&gt;
+    &lt;!&ndash; Boostrap Version 5.1.2 &ndash;&gt;
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
@@ -35,10 +40,10 @@
 
 </head>
 <body class='bg-paper-lined'>
-<!--Nav Bar-->
-<nav class="navbar <!--fixed-top--> navbar-expand-md navbar-dark bg-dark">
+&lt;!&ndash;Nav Bar&ndash;&gt;
+<nav class="navbar &lt;!&ndash;fixed-top&ndash;&gt; navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid ">
-        <!--Nav Bar-->
+        &lt;!&ndash;Nav Bar&ndash;&gt;
         <a class="navbar-brand fs-2" href="index.html">
             <img src="assets/Website/Game%20Title.png" class="navbar-img img-responsive" alt="Doodle Course">
         </a>
@@ -64,13 +69,13 @@
         </div>
     </div>
 </nav>
-<!--Game Player-->
+&lt;!&ndash;Game Player&ndash;&gt;
 <div class="pt-5 container-fluid ">
     <div class="pt-5" id="phaserGame"></div>
 </div>
 
-<!--Controls-->
-<!-- Button trigger modal -->
+&lt;!&ndash;Controls&ndash;&gt;
+&lt;!&ndash; Button trigger modal &ndash;&gt;
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm text-center">
@@ -82,12 +87,12 @@
     </div>
 </div>
 
-<!-- Modal -->
+&lt;!&ndash; Modal &ndash;&gt;
 <div class="modal fade " id="controlsModal" tabindex="-1" aria-labelledby="controlsModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg ">
         <div class="modal-content">
             <div class="modal-header text-center">
-                <!--<h3 class="modal-title" id="controlsModalLabel">Controls</h3>-->
+                &lt;!&ndash;<h3 class="modal-title" id="controlsModalLabel">Controls</h3>&ndash;&gt;
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -144,16 +149,16 @@
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    &lt;!&ndash;<button type="button" class="btn btn-primary">Save changes</button>&ndash;&gt;
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!--How To Play-->
+&lt;!&ndash;How To Play&ndash;&gt;
 <div class="container pt-5 text-center">
-    <!--<hr class="bg-primary border border-5 border-dark">-->
+    &lt;!&ndash;<hr class="bg-primary border border-5 border-dark">&ndash;&gt;
     <h3>How To Play</h3>
     <p>
         The game is split into two modes, Edit Mode and Play Mode.
@@ -169,19 +174,19 @@
     </p>
 </div>
 
-<!--Back Button-->
+&lt;!&ndash;Back Button&ndash;&gt;
 <button onclick="topFunction()" id="backToTopBtn" title="Go to top">
     <img class="back-to-top" src="assets/Website/icons/back_to_top.png" alt="Back to Top">
 </button>
 
-<!--BackButton Script-->
-<!--Slightly modified version of W3 Schools Example
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top-->
+&lt;!&ndash;BackButton Script&ndash;&gt;
+&lt;!&ndash;Slightly modified version of W3 Schools Example
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top&ndash;&gt;
 <script>
     //Get the button
     var backToTopButton = document.getElementById("backToTopBtn");
 
-    //--If the user scrolls downby more than 20(px?) then show the back to top button
+    //&#45;&#45;If the user scrolls downby more than 20(px?) then show the back to top button
     window.onscroll = function () {
         scrollFunction()
     };
@@ -194,14 +199,14 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top-->
         }
     }
 
-    //--When the button is clicked go to the top of the page
+    //&#45;&#45;When the button is clicked go to the top of the page
     function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
 </script>
 
-<!--Footer-->
+&lt;!&ndash;Footer&ndash;&gt;
 <div class="pt-5">
     <footer class="footer mt-auto py-3 bg-dark">
         <div class="container">
@@ -216,4 +221,4 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top-->
     </footer>
 </div>
 </body>
-</html>
+</html>-->
