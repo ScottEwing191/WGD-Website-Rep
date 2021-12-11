@@ -188,7 +188,8 @@
             "unlock": [
                 "x",
                 "y",
-                "Player.xVelocity"
+                "Player.xVelocity",
+                "visible"
             ],
             "label": "player",
             "scope": "PUBLIC",
